@@ -1,0 +1,82 @@
+[
+  {
+    "scene": "s1",
+    "name": "Hook 3s: Phá vỡ hiểu lầm ký là xong",
+    "purpose": "Gây chú ý ngay Frame 0 bằng việc phủ định định kiến chọn gói rồi ký là xong, mở ra quy trình chuẩn chặt chẽ",
+    "narration": "Nhiều người tưởng làm một hợp đồng bảo hiểm chỉ cần chọn gói rồi ký tên là xong. Thực tế, để hợp đồng thực sự có giá trị chi trả, bạn phải đi qua đủ các bước chặt chẽ dưới đây.",
+    "visualAction": "Frame-0 hiện ngay dấu mộc KÝ LÀ XONG? trên nền đỏ son tương phản, nét gạch sáng phủ định và mở trục dây chuyền kiểm định",
+    "estDurationMs": 10500
+  },
+  {
+    "scene": "s2",
+    "name": "Bước 1: Đo khoảng trống tài chính",
+    "purpose": "Giải thích nguyên lý đầu tiên: tính đúng số tiền gia đình cần nếu trụ cột mất thu nhập trước khi chọn sản phẩm",
+    "narration": "Bước một, đo khoảng trống tài chính trước khi chọn sản phẩm. Đừng hỏi gói nào rẻ, hãy tính xem nếu trụ cột mất thu nhập, gia đình cần bao nhiêu tiền để đứng vững, rồi mới quy ra mệnh giá.",
+    "visualAction": "Đòn bẩy cân bằng cơ học giữa cột chi phí gia đình và thước trượt mệnh giá bảo vệ chạm vạch cân bằng 0 độ",
+    "estDurationMs": 11200
+  },
+  {
+    "scene": "s3",
+    "name": "Bước 2: Chuẩn bị bộ giấy tờ hợp lệ",
+    "purpose": "Liệt kê rõ các giấy tờ cần thiết để lập HĐBH: CCCD/giấy khai sinh, hồ sơ khám bệnh cũ nếu có, chứng minh thu nhập khi mệnh giá cao",
+    "narration": "Bước hai, chuẩn bị đủ giấy tờ hợp lệ. Cơ bản gồm căn cước công dân hoặc giấy khai sinh nếu mua cho con; kèm hồ sơ khám bệnh cũ nếu từng điều trị, và chứng minh thu nhập khi bảo vệ mệnh giá cao.",
+    "visualAction": "Khay hồ sơ mở 3 ngăn tài liệu xếp lớp rõ nét: CCCD / Khai sinh, Hồ sơ y tế cũ, Chứng minh thu nhập",
+    "estDurationMs": 11800
+  },
+  {
+    "scene": "s4",
+    "name": "Bước 3: Hồ sơ yêu cầu & Nút thắt kê khai trung thực",
+    "purpose": "Nhấn mạnh quy tắc trung thực tuyệt đối khi khai y tế và đóng phí tạm tính lần đầu; giấu bệnh cũ tạo kẽ hở từ chối",
+    "narration": "Bước ba, nộp hồ sơ yêu cầu và đóng phí tạm tính lần đầu. Đây là nút thắt sống còn: bạn buộc phải kê khai sức khỏe trung thực tuyệt đối. Giấu một bệnh cũ chỉ tạo kẽ hở từ chối chi trả về sau.",
+    "visualAction": "Thanh quét quang học rà qua tờ khai y tế, phát hiện vệt mực ẩn bệnh cũ làm đứt mạch dẫn chi trả",
+    "estDurationMs": 12000
+  },
+  {
+    "scene": "s5",
+    "name": "Yêu cầu Ghi âm tư vấn bắt buộc",
+    "purpose": "Giải thích quy định ghi âm tư vấn đối với sản phẩm liên kết đầu tư để bảo vệ bằng chứng minh bạch cho khách hàng",
+    "narration": "Đặc biệt, với sản phẩm liên kết đầu tư, luật bắt buộc phải ghi âm quá trình tư vấn. Đoạn ghi âm này khóa bằng chứng bạn đã nghe rõ rủi ro, điều khoản và tự nguyện tham gia, tránh bị tư vấn mập mờ.",
+    "visualAction": "Dải sóng âm thanh chạy qua đầu ghi cơ học, chốt vào ổ khóa minh bạch GHI ÂM ĐỐI CHIẾU",
+    "estDurationMs": 11800
+  },
+  {
+    "scene": "s6",
+    "name": "Bước 4: Thẩm định rủi ro & 4 ngã rẽ",
+    "purpose": "Cho người xem thấy công ty thẩm định thực sự làm gì và 4 kết quả có thể nhận được",
+    "narration": "Bước bốn, bộ phận thẩm định sẽ soi hồ sơ y tế, thậm chí mời bạn khám sức khỏe miễn phí nếu cần. Kết quả sẽ rẽ vào một trong bốn cửa: chấp nhận chuẩn, tăng phí, loại trừ bệnh cũ, hoặc tạm hoãn.",
+    "visualAction": "Kính lúp soi hồ sơ y tế rồi bộ chia cơ học rẽ mạch thành 4 cửa rõ ràng: Chuẩn, Tăng phí, Loại trừ, Tạm hoãn",
+    "estDurationMs": 12000
+  },
+  {
+    "scene": "s7",
+    "name": "Bước 5: Xác thực phát hành & Bảo vệ tạm thời",
+    "purpose": "Làm rõ bước xác thực bắt buộc (định danh, chữ ký điện tử, gọi đối chiếu) trước khi phát hành và ranh giới bảo vệ tạm thời",
+    "narration": "Bước năm, xác thực để phát hành. Công ty sẽ kiểm tra định danh, chữ ký điện tử hoặc gọi điện đối chiếu lại với bạn. Chỉ khi hoàn tất xác thực và phát hành, lá chắn toàn diện mới mở khóa thay cho bảo vệ tạm thời do tai nạn.",
+    "visualAction": "Cổng xác thực 3 chốt gạt khớp thành công, dấu PHÁT HÀNH dập xuống mở sáng toàn phần lá chắn 2 tầng",
+    "estDurationMs": 12600
+  },
+  {
+    "scene": "s8",
+    "name": "Bước 6: Bàn giao & 21 ngày cân nhắc",
+    "purpose": "Làm rõ quyền lợi hợp pháp trong 21 ngày cân nhắc miễn phí sau khi ký biên bản bàn giao",
+    "narration": "Bước sáu, ký biên bản bàn giao để kích hoạt hai mươi mốt ngày cân nhắc miễn phí. Suốt ba tuần này, bạn được đọc lại từng trang điều khoản, nếu thấy không ổn có quyền hủy ngang và nhận lại tiền.",
+    "visualAction": "Nét bút ký biên bản kích hoạt cửa sổ cơ học 01 đến 21 NGÀY tô dạ quang vàng cùng chốt hoàn phí sẵn sàng mở",
+    "estDurationMs": 11500
+  },
+  {
+    "scene": "s9",
+    "name": "Điểm mù sau ngày thứ 21",
+    "purpose": "Cảnh báo sai lầm nhận hợp đồng rồi cất tủ; sau ngày 21 điều khoản khóa chặt và thời gian chờ bắt đầu đếm",
+    "narration": "Đừng nhận cuốn hợp đồng rồi cất ngay vào tủ. Qua ngày hai mươi mốt, mọi điều khoản chính thức khóa chặt và các mốc thời gian chờ bắt đầu đếm.",
+    "visualAction": "Cửa sổ Ngày 21 sập khóa ngàm elastic, con dấu niêm phong đóng lên bìa hồ sơ và bánh răng thời gian chờ quay nhịp",
+    "estDurationMs": 8500
+  },
+  {
+    "scene": "s10",
+    "name": "Tổng kết quy trình & Thông điệp bản chất",
+    "purpose": "Gom toàn bộ quy trình thành 1 mạch khép kín khắc sâu 5 chốt hành động chuẩn xác",
+    "narration": "Làm bảo hiểm không phải mua một tờ giấy, mà là chuẩn bị đủ giấy tờ, khai thật, ghi âm minh bạch, xác thực chuẩn và kiểm tra kỹ trước khi hết hạn cân nhắc.",
+    "visualAction": "Dây chuyền kiểm định nối liền thành 1 mạch sáng vững hội tụ 5 chốt: Giấy tờ, Khai thật, Ghi âm, Xác thực, 21 ngày",
+    "estDurationMs": 9200
+  }
+]

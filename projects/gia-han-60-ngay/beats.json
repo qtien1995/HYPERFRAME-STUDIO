@@ -1,0 +1,66 @@
+[
+  {
+    "scene": "s1",
+    "name": "Phá vỡ hiểu lầm trễ 1 ngày",
+    "purpose": "Hook 3s đầu giải tỏa nỗi sợ mất sạch khi trễ hạn và giới thiệu 2 mốc thời gian sống còn",
+    "narration": "Nhiều người tưởng trễ đóng phí bảo hiểm một ngày là hợp đồng bị hủy ngay, mất sạch tiền đã đóng. Thực tế không phải vậy, luật cho bạn hai mốc thời gian sống còn cần phân biệt thật rõ.",
+    "visualAction": "Gạch ngang dứt khoát chữ MẤT SẠCH trên bản vẽ giấy can, mở ra 2 chốt tọa độ 60 NGÀY và 2 NĂM",
+    "estDurationMs": 9500
+  },
+  {
+    "scene": "s2",
+    "name": "Mốc 1: 60 ngày gia hạn là gì",
+    "purpose": "Giải thích dễ hiểu khái niệm vùng đệm 2 tháng khi kẹt tiền hoặc quên lịch đóng phí",
+    "narration": "Mốc thứ nhất là 60 ngày gia hạn đóng phí. Đến kỳ đóng mà bạn kẹt tiền hay quên lịch, hợp đồng chưa hề hủy, bạn có thêm đúng hai tháng để xoay xở.",
+    "visualAction": "Thước đo cơ học trượt từ Ngày 01 mở rộng vùng đệm sáng 60 NGÀY bằng vệt bút dạ quang vàng",
+    "estDurationMs": 9500
+  },
+  {
+    "scene": "s3",
+    "name": "Quyền lợi trong 60 ngày gia hạn",
+    "purpose": "Làm rõ điểm quan trọng nhất: vẫn được bảo vệ, vẫn chi trả (trừ phí nợ) và không hỏi sức khỏe",
+    "narration": "Điều quan trọng nhất: trong suốt 60 ngày này, bạn vẫn được bảo vệ bình thường. Chẳng may có biến cố ngay lúc đang nợ phí, công ty vẫn xem xét chi trả sau khi trừ phần phí còn thiếu, và tuyệt đối không hỏi lại sức khỏe.",
+    "visualAction": "Khiên bảo vệ sáng xanh Manulife, mô phỏng chi trả trừ phần phí thiếu, đóng dấu VẪN BẢO VỆ",
+    "estDurationMs": 13000
+  },
+  {
+    "scene": "s4",
+    "name": "Ranh giới ngày thứ 61: Đóng băng",
+    "purpose": "Cảnh báo bước ngoặt sang ngày 61: tạm ngưng hiệu lực, không chi trả khi xảy ra biến cố",
+    "narration": "Nhưng bước sang ngày thứ 61 mà vẫn chưa đóng, hợp đồng lập tức tạm ngưng hiệu lực. Toàn bộ quyền lợi bảo vệ bị đóng băng. Nếu biến cố xảy ra lúc này, bạn sẽ không được chi trả dù trước đó đã đóng nhiều năm.",
+    "visualAction": "Kim thước vượt vạch đỏ Ngày 61, chốt khóa cơ học sập ngàm, màn kính mờ phủ lên nhãn TẠM ĐÓNG BĂNG",
+    "estDurationMs": 12000
+  },
+  {
+    "scene": "s5",
+    "name": "Mốc 2: 2 năm khôi phục hợp đồng cũ",
+    "purpose": "Giải thích cửa sổ 2 năm để giữ hợp đồng cũ với phí tuổi cũ thay vì bỏ đi mua mới đắt hơn",
+    "narration": "Lúc này bạn bước sang mốc thứ hai: tối đa 2 năm để xin khôi phục lại hợp đồng cũ, thay vì phải bỏ đi mua mới với mức phí đắt hơn theo tuổi.",
+    "visualAction": "Thước đo thu phóng sang trục 24 THÁNG (2 NĂM), giữ mạch hợp đồng cũ nhẹ gánh hơn mua mới theo tuổi",
+    "estDurationMs": 9000
+  },
+  {
+    "scene": "s6",
+    "name": "3 điều kiện khắt khe khi khôi phục",
+    "purpose": "Phân tích rõ cái giá của 2 năm: đóng bù phí, thẩm định lại sức khỏe và tính lại thời gian chờ",
+    "narration": "Nhưng khác hẳn 60 ngày, muốn khôi phục không chỉ cần đóng bù số phí còn thiếu, mà bạn còn phải thẩm định lại sức khỏe và có thể phải tính lại thời gian chờ của một số quyền lợi.",
+    "visualAction": "3 cơ chế kiểm định lần lượt trượt khớp ngàm: Đóng bù phí, Kính lúp soi hồ sơ sức khỏe, Kim thời gian chờ quay lại mốc đầu",
+    "estDurationMs": 10000
+  },
+  {
+    "scene": "s7",
+    "name": "Rủi ro từ chối & Câu chốt dễ nhớ",
+    "purpose": "Cảnh báo nguy cơ phát sinh bệnh mới bị loại trừ/từ chối và đúc kết câu so sánh 60 ngày vs 2 năm",
+    "narration": "Nếu trong thời gian tạm ngưng bạn lỡ phát sinh vấn đề sức khỏe mới, yêu cầu khôi phục có thể bị loại trừ hoặc từ chối. Hãy nhớ: 60 ngày là được bảo vệ không hỏi sức khỏe, còn 2 năm chỉ là cơ hội xin xét lại từ đầu.",
+    "visualAction": "Con dấu đỏ TỪ CHỐI dập nảy lên hồ sơ, tách hai vế đối chiếu trực quan 60 NGÀY vs 2 NĂM",
+    "estDurationMs": 11500
+  },
+  {
+    "scene": "s8",
+    "name": "Brand Outro",
+    "purpose": "Thẻ thương hiệu Tiến Dương · Manulife căn giữa tuyệt đối và CTA chuẩn gốc",
+    "narration": "Nhắn 'KẾ HOẠCH' để nhận bản phân tích rủi ro và giải pháp tài chính vững bền.",
+    "visualAction": "Thẻ căn giữa 540px xuất hiện sớm đầy đủ, quẹt dạ quang vàng cụm CTA KẾ HOẠCH",
+    "estDurationMs": 6000
+  }
+]

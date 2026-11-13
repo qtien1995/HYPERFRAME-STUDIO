@@ -1,0 +1,137 @@
+{
+  "projectId": "nguon-goc-bao-hiem",
+  "totalDurationSec": 54.356,
+  "audioDurationSec": 52.956,
+  "scenes": [
+    {
+      "id": "s1",
+      "start": 0,
+      "dur": 3.241,
+      "purpose": "Phá định kiến: Không bắt nguồn từ hợp đồng hiện đại",
+      "layout": "centered",
+      "motion": "interrupt",
+      "desc": "Tập hợp đồng hiện đại gạch trừu tượng bị bút mực đỏ gạch chéo",
+      "narration": "Ít ai ngờ thủy tổ của bảo hiểm không bắt nguồn từ hợp đồng hiện đại,"
+    },
+    {
+      "id": "s2",
+      "start": 3.241,
+      "dur": 2.319,
+      "purpose": "Hook sông dữ: Nỗi lo lật thuyền",
+      "layout": "centered",
+      "motion": "flow",
+      "desc": "Con thuyền đơn độc chao nghiêng giữa đường đồng mức sóng cuộn",
+      "narration": "mà từ nỗi lo lật thuyền trên sông dữ."
+    },
+    {
+      "id": "s3",
+      "start": 5.56,
+      "dur": 4.18,
+      "purpose": "Trường Giang: Dồn hết hàng lên 1 thuyền",
+      "layout": "centered",
+      "motion": "collapse",
+      "desc": "Khối hàng nặng đè chìm mớn nước của duy nhất 1 con thuyền",
+      "narration": "Thời cổ đại, thương nhân qua sông Trường Giang hiểm trở không dồn hết hàng lên một thuyền."
+    },
+    {
+      "id": "s4",
+      "start": 9.74,
+      "dur": 5.36,
+      "purpose": "Cơ chế chia nhỏ hàng hóa lên 5 thuyền",
+      "layout": "split",
+      "motion": "stagger",
+      "desc": "Tách khối hàng làm 5 kiện đáp xuống 5 thuyền; 1 gặp xoáy nước, 4 vững vàng",
+      "narration": "Họ chia nhỏ gửi đều sang nhiều chiếc cùng đi, để nếu một thuyền gặp xoáy nước, chẳng ai mất trắng."
+    },
+    {
+      "id": "s5",
+      "start": 15.1,
+      "dur": 3.9,
+      "purpose": "Lưỡng Hà: Khắc nguyên tắc vào bộ luật Hammurabi",
+      "layout": "centered",
+      "motion": "draw-in",
+      "desc": "Bia đất nung khắc nét chữ hình nêm phát sáng cùng niên đại 1750 TCN",
+      "narration": "Sau đó, người Lưỡng Hà khắc nguyên tắc này vào bộ luật Hammurabi."
+    },
+    {
+      "id": "s6",
+      "start": 19,
+      "dur": 5.75,
+      "purpose": "Cơ chế Hammurabi: Đổi phí nhỏ miễn hoàn trả vốn",
+      "layout": "split",
+      "motion": "compare-state",
+      "desc": "Cán cân cơ học cân đồng xu phí nhỏ với khối vốn tàu và đóng dấu miễn hoàn trả",
+      "narration": "Người đi biển đóng thêm một phần phí nhỏ, để nếu bão đánh chìm tàu ngoài khơi, họ được miễn hoàn trả vốn ban đầu."
+    },
+    {
+      "id": "s7",
+      "start": 24.75,
+      "dur": 4.76,
+      "purpose": "Hy Lạp cổ đại: Quy ước Tổn thất chung Địa Trung Hải",
+      "layout": "centered",
+      "motion": "draw-in",
+      "desc": "Hải đồ Địa Trung Hải tự vẽ tuyến tàu cùng dấu Tổn thất chung",
+      "narration": "Đến thời Hy Lạp cổ đại, thủy thủ vùng Địa Trung Hải lại đặt ra quy ước tổn thất chung."
+    },
+    {
+      "id": "s8",
+      "start": 29.51,
+      "dur": 4.74,
+      "purpose": "Hy sinh phần nhỏ cứu tàu & mọi chủ hàng bù đắp",
+      "layout": "centered",
+      "motion": "transform",
+      "desc": "Tàu nghiêng hạ 1 kiện hàng lấy lại thăng bằng, 4 cung lực cộng đồng cùng bù đắp",
+      "narration": "Nếu phải ném bớt hàng xuống biển để cứu cả con tàu, mọi chủ hàng cùng góp phần bù đắp."
+    },
+    {
+      "id": "s9",
+      "start": 34.25,
+      "dur": 2.626,
+      "purpose": "Luân Đôn thế kỷ 17: Quán cà phê ven cảng",
+      "layout": "centered",
+      "motion": "flow",
+      "desc": "Mặt bàn gỗ quán cà phê với tách cà phê bốc hơi cạnh bản đồ cảng Thames 1688",
+      "narration": "Thế kỷ mười bảy, tại quán cà phê ven cảng Luân Đôn,"
+    },
+    {
+      "id": "s10",
+      "start": 36.876,
+      "dur": 6.324,
+      "purpose": "Giải mã Underwriting: Ký tên dưới danh sách tàu",
+      "layout": "centered",
+      "motion": "marker-draw",
+      "desc": "Trang sổ có đường kẻ ngang; 3 chữ ký mực xanh tự viết ngay bên dưới đường kẻ",
+      "narration": "giới thương nhân ký tên ngay dưới bản danh sách tàu để cùng chia rủi ro. Ngành bảo hiểm hiện đại thành hình từ đó."
+    },
+    {
+      "id": "s11",
+      "start": 43.2,
+      "dur": 2.466,
+      "purpose": "Sợi chỉ xuyên suốt hàng nghìn năm lịch sử",
+      "layout": "timeline",
+      "motion": "timeline-progress",
+      "desc": "Thước đo thời gian nối 5 cột mốc văn minh bằng sợi chỉ liền mạch",
+      "narration": "Hàng nghìn năm trôi qua, nguyên lý vẫn vẹn nguyên,"
+    },
+    {
+      "id": "s12",
+      "start": 45.666,
+      "dur": 3.204,
+      "purpose": "Bản chất cốt lõi: Vòm số đông đỡ một gia đình",
+      "layout": "centered",
+      "motion": "shield-expand",
+      "desc": "6 cung hợp lực đan vòm lá chắn xanh Manulife che chở ngôi nhà trước bão",
+      "narration": "góp bình an của số đông đỡ lấy một gia đình lúc giông bão."
+    },
+    {
+      "id": "s13",
+      "start": 48.87,
+      "dur": 5.486,
+      "purpose": "Brand Outro & CTA Tiến Dương Manulife",
+      "layout": "centered",
+      "motion": "card-reveal",
+      "desc": "Thẻ chuyên gia Tiến Dương Manulife căn giữa với highlight CTA Nhắn KẾ HOẠCH",
+      "narration": "Nhắn 'KẾ HOẠCH' để Tiến Dương cùng bạn rà soát lại lá chắn tài chính cho gia đình mình nhé."
+    }
+  ]
+}

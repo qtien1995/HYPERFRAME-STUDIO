@@ -1,0 +1,20 @@
+{
+  "id": "tien-duong",
+  "creatorName": "Tiến Dương",
+  "title": "Chuyên Gia Hoạch Định Tài Chính",
+  "company": "Manulife Việt Nam",
+  "brandName": "TÀI CHÍNH THỰC CHIẾN",
+  "tagline": "HOẠCH ĐỊNH TÀI CHÍNH · BẢO VỆ VỮNG BỀN",
+  "cta": "Nhắn 'KẾ HOẠCH' để nhận bản phân tích rủi ro 👇",
+  "ctaKeyword": "KẾ HOẠCH",
+  "forbiddenCtaPatterns": ["nhắn\\s*(chữ)?\\s*(soi|trụ|nịt|phanh|phao)\\b"],
+  "handle": "@tienduong",
+  "disclaimer": "Nội dung mang tính chất chia sẻ giải pháp · Liên hệ để được tư vấn theo nhu cầu thực tế",
+  "logo": "brand/tien-duong/logo.png",
+  "hashtags": ["#taichinh", "#baohiem", "#manulife"],
+  "outro": {
+    "required": true,
+    "centered": true,
+    "elements": ["logo", "creatorName", "title", "cta", "handle", "disclaimer"]
+  }
+}

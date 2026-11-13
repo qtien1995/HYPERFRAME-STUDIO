@@ -1,0 +1,33 @@
+{
+  "name": "hyperframe-studio",
+  "version": "4.0.0",
+  "description": "HyperFrames Video Studio V4 — Multi-Topic Pure Bespoke Motion Video Production Workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doctor": "node core/scripts/factory/index.js doctor",
+    "check": "node core/scripts/factory/index.js doctor",
+    "services": "powershell -ExecutionPolicy Bypass -File .\\core\\scripts\\factory\\start-services.ps1",
+    "preview": "hyperframes preview",
+    "make": "node core/scripts/factory/make.js",
+    "clean": "node core/scripts/factory/clean.js",
+    "factory": "node core/scripts/factory/index.js",
+    "test": "node --test core/tests/factory.test.js",
+    "verify": "node tests/e2e/test_final_video.cjs",
+    "audit:code": "npx --yes knip && npx --yes jscpd core/ engines/"
+  },
+  "keywords": [
+    "hyperframes",
+    "video-factory",
+    "social-video",
+    "cit-voice-studio",
+    "gsap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperframes": "^0.9.15",
+    "minimist": "^1.2.8",
+    "zod": "^3.22.4"
+  }
+}

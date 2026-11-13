@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.2",
+  "projectId": "quy-trinh-lam-hdbh",
+  "stages": {
+    "SCRIPT": {
+      "input": "1966076ce0fe862cf1ed74e9267e57406687289bddefad9e55409ab16720400c",
+      "signature": "81a641c965937f301162ac37fab663a1433965cc88a6e0a1495789d44b9a02c3",
+      "artifacts": [
+        "script.md"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:13:53.237Z"
+    },
+    "BEATS": {
+      "input": "8d897bc13d1aa1772a096e796818a572987692f46ab3a75e3f19d30146d027b8",
+      "signature": "7e6a44fbd6fa0bd990edbb8dc8d41078b8b6ea427d48076505913ab6e9927b14",
+      "artifacts": [
+        "beats.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:13:53.688Z"
+    },
+    "GATE1": {
+      "input": "3d53025ca15c5091bda70a046022cb8efc85aa5d97ae01d261e2ebed977b1b28",
+      "signature": "a610a2a08b4526ea872d9ce9bf64213e8ce0e2e85832af9ffa8f83fe96d055d2",
+      "artifacts": [],
+      "metadata": {
+        "evidence": "User duyet kich ban 10 canh va huong my thuat"
+      },
+      "recordedAt": "2026-11-13T14:16:04.125Z"
+    },
+    "CREATIVE_DIRECTION": {
+      "input": "6ab777f1fa4334aeae50b8e1f526cdf7322ed7979b40697bc1d4618257fa1ba3",
+      "signature": "79386acbe199e28041f7630c0cebd5d14e63fbada1da3d92d51e36846a8c19b2",
+      "artifacts": [
+        "creative-direction.md",
+        "DESIGN.md"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:16:04.203Z"
+    },
+    "GATE2": {
+      "input": "3793987639346b78f9aebef20eaca6e22a924bce1c176dad7a1a358250397d33",
+      "signature": "6bf8980ad456283bd95227e166e35cc00ccf6fb03deae6bf6f9b1e2abf2ffaf0",
+      "artifacts": [],
+      "metadata": {
+        "evidence": "User duyet DESIGN.md va Art Direction Sheet"
+      },
+      "recordedAt": "2026-11-13T14:16:04.284Z"
+    },
+    "TTS": {
+      "input": "80373ed6e195c5d253424d85b985a01a9486748d18c7286e50cbe574ed6e047d",
+      "signature": "edf697e62c8ba5b67dd61582614046b9602163ad67decfb99257e2a2990854d7",
+      "artifacts": [
+        "assets/audio/narration.mp3",
+        "assets/audio/timing.json"
+      ],
+      "metadata": {
+        "voice": "Hải Đăng",
+        "speed": 1.02,
+        "provider": "cit-voice-studio"
+      },
+      "recordedAt": "2026-11-13T14:17:15.928Z"
+    },
+    "STORYBOARD": {
+      "input": "53d72069e3c6c972ace551cc8d83f34fff28fed97ade11a1e23d75abfcd44fa0",
+      "signature": "0dc6e8cc455fdf1452eaa1c0f358a2057e011ca555a0ac12d0c62c75fccb9c35",
+      "artifacts": [
+        "storyboard.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:27:28.107Z"
+    },
+    "VIDEO_SPEC": {
+      "input": "d47eb4b0e3b0e14965390434651fe2b2ff75f4c3abd65f73c188c11f7f1b2017",
+      "signature": "47c7cae71b173c993deb697b7b26a33bc92ba4e6b7657a3a0adac49f8ad68107",
+      "artifacts": [
+        "specs/video-spec.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:27:28.207Z"
+    },
+    "VALIDATION": {
+      "input": "85a76f48ecc1e935601af9668d939519421312ec8bb20d2e7b634c0a799c6b03",
+      "signature": "4309e97d623c4fc3aa21c58c542a2fae4478fd5342b0071ae5ecc00bb752d2df",
+      "artifacts": [],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:27:28.407Z"
+    },
+    "PRODUCTION": {
+      "input": "4fc092a3ca95a30723bdbae3814a5b033f81af52de4412d540310c091591fbd2",
+      "signature": "278e1fd2859f7f443cc3f8e4eec039e718011221d11a20c2578a2fef27e6b666",
+      "artifacts": [
+        "specs/video-spec.json",
+        "index.html"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:35:48.023Z"
+    },
+    "FINAL_RENDER": {
+      "input": "e28cd04423ff2f0831a01ffe4d2909395251422617e1d3db35a6566b305684d9",
+      "signature": "4afacdb388792259579611a1ab3dfc6ae02272ca91fde26583fa6d9a31feac70",
+      "artifacts": [
+        "output/final.mp4",
+        "output/final-qc.json",
+        "output/final-contact-sheet.svg"
+      ],
+      "metadata": {
+        "engine": "HYPERFRAMES"
+      },
+      "recordedAt": "2026-11-13T14:39:18.213Z"
+    },
+    "FINAL_QA": {
+      "input": "6620f4947e410a069f907df85e10af0aea671eb6af1331f9f67afd23236939fa",
+      "signature": "03eda765d387f30b66089d802341da5ac7c2aee6868c0a718bed2c80429a1a05",
+      "artifacts": [
+        "qc.md"
+      ],
+      "metadata": {
+        "reviewed": true
+      },
+      "recordedAt": "2026-11-13T14:40:10.566Z"
+    },
+    "DONE": {
+      "input": "d050dc581bd929331f837ff8b92a540dab08e8c57c78d529302d35d589c5277b",
+      "signature": "dcd2088d7cfc74a1591850be7fe268e223be938b7c789ed1d5adb707dd85b7b2",
+      "artifacts": [
+        "output/final.mp4"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T14:40:10.838Z"
+    }
+  },
+  "needsReview": false
+}

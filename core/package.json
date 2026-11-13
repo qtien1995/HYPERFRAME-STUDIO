@@ -1,0 +1,10 @@
+{
+  "name": "core",
+  "version": "4.0.0",
+  "description": "HyperFrames Video Studio V4 — Core Orchestrator",
+  "main": "scripts/factory/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

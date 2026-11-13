@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "0.1",
+  "project": {
+    "id": "gia-han-60-ngay",
+    "title": "Gia Hạn 60 Ngày & Khôi Phục Hợp Đồng 2 Năm",
+    "version": 1
+  },
+  "format": {
+    "aspectRatio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fpsPreference": 30,
+    "targetDurationMs": 76336
+  },
+  "content": {
+    "coreMessage": "Phân biệt rõ 60 ngày gia hạn đóng phí và 2 năm khôi phục hợp đồng",
+    "audience": "General",
+    "tone": "Editorial Light",
+    "language": "vi"
+  },
+  "script": {
+    "narration": "Nhiều người tưởng trễ đóng phí bảo hiểm một ngày là hợp đồng bị hủy ngay, mất sạch tiền đã đóng. Thực tế không phải vậy, luật cho bạn hai mốc thời gian sống còn cần phân biệt thật rõ. Mốc thứ nhất là 60 ngày gia hạn đóng phí. Đến kỳ đóng mà bạn kẹt tiền hay quên lịch, hợp đồng chưa hề hủy, bạn có thêm đúng hai tháng để xoay xở. Điều quan trọng nhất: trong suốt 60 ngày này, bạn vẫn được bảo vệ bình thường. Chẳng may có biến cố ngay lúc đang nợ phí, công ty vẫn xem xét chi trả sau khi trừ phần phí còn thiếu, và tuyệt đối không hỏi lại sức khỏe. Nhưng bước sang ngày thứ 61 mà vẫn chưa đóng, hợp đồng lập tức tạm ngưng hiệu lực. Toàn bộ quyền lợi bảo vệ bị đóng băng. Nếu biến cố xảy ra lúc này, bạn sẽ không được chi trả dù trước đó đã đóng nhiều năm. Lúc này bạn bước sang mốc thứ hai: tối đa 2 năm để xin khôi phục lại hợp đồng cũ, thay vì phải bỏ đi mua mới với mức phí đắt hơn theo tuổi. Nhưng khác hẳn 60 ngày, muốn khôi phục không chỉ cần đóng bù số phí còn thiếu, mà bạn còn phải thẩm định lại sức khỏe và có thể phải tính lại thời gian chờ của một số quyền lợi. Nếu trong thời gian tạm ngưng bạn lỡ phát sinh vấn đề sức khỏe mới, yêu cầu khôi phục có thể bị loại trừ hoặc từ chối. Hãy nhớ: 60 ngày là được bảo vệ không hỏi sức khỏe, còn 2 năm chỉ là cơ hội xin xét lại từ đầu. Nhắn 'KẾ HOẠCH' để nhận bản phân tích rủi ro và giải pháp tài chính vững bền.",
+    "scenes": [
+      {
+        "id": "s1",
+        "purpose": "Scene 1",
+        "narration": "",
+        "startMs": 0,
+        "durationMs": 9420,
+        "visualIntent": {
+          "description": "Scene 1",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s1"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s2",
+        "purpose": "Scene 2",
+        "narration": "",
+        "startMs": 9420,
+        "durationMs": 8390,
+        "visualIntent": {
+          "description": "Scene 2",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s2"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s3",
+        "purpose": "Scene 3",
+        "narration": "",
+        "startMs": 17810,
+        "durationMs": 11800,
+        "visualIntent": {
+          "description": "Scene 3",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s3"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s4",
+        "purpose": "Scene 4",
+        "narration": "",
+        "startMs": 29610,
+        "durationMs": 11570,
+        "visualIntent": {
+          "description": "Scene 4",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s4"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s5",
+        "purpose": "Scene 5",
+        "narration": "",
+        "startMs": 41180,
+        "durationMs": 7480,
+        "visualIntent": {
+          "description": "Scene 5",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s5"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s6",
+        "purpose": "Scene 6",
+        "narration": "",
+        "startMs": 48660,
+        "durationMs": 9680,
+        "visualIntent": {
+          "description": "Scene 6",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s6"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s7",
+        "purpose": "Scene 7",
+        "narration": "",
+        "startMs": 58340,
+        "durationMs": 12800,
+        "visualIntent": {
+          "description": "Scene 7",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s7"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s8",
+        "purpose": "Scene 8",
+        "narration": "",
+        "startMs": 71140,
+        "durationMs": 5196,
+        "visualIntent": {
+          "description": "Scene 8",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "fade-in",
+            "subject": "s8"
+          }
+        ],
+        "assets": [
+          {
+            "id": "logo",
+            "type": "image",
+            "path": "assets/branding/manulife-logo.png"
+          }
+        ]
+      }
+    ]
+  },
+  "engineRouting": {
+    "suggestedEngine": "HYPERFRAMES",
+    "reason": "Pure Bespoke V4 Compiler"
+  }
+}

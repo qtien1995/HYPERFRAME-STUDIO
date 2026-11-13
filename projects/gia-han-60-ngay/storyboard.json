@@ -1,0 +1,46 @@
+{
+  "projectId": "gia-han-60-ngay",
+  "totalDurationSec": 76.336,
+  "scenes": [
+    {
+      "id": "s1",
+      "start": 0,
+      "dur": 9.42
+    },
+    {
+      "id": "s2",
+      "start": 9.42,
+      "dur": 8.39
+    },
+    {
+      "id": "s3",
+      "start": 17.81,
+      "dur": 11.8
+    },
+    {
+      "id": "s4",
+      "start": 29.61,
+      "dur": 11.57
+    },
+    {
+      "id": "s5",
+      "start": 41.18,
+      "dur": 7.48
+    },
+    {
+      "id": "s6",
+      "start": 48.66,
+      "dur": 9.68
+    },
+    {
+      "id": "s7",
+      "start": 58.34,
+      "dur": 12.8
+    },
+    {
+      "id": "s8",
+      "start": 71.14,
+      "dur": 5.196
+    }
+  ]
+}

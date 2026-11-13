@@ -1,0 +1,347 @@
+{
+  "schemaVersion": "0.1",
+  "project": {
+    "id": "nguon-goc-bao-hiem",
+    "title": "Thủy Tổ Bảo Hiểm Bắt Nguồn Từ Đâu?",
+    "version": 1
+  },
+  "format": {
+    "aspectRatio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fpsPreference": 30,
+    "targetDurationMs": 54356
+  },
+  "content": {
+    "coreMessage": "Nguồn gốc lịch sử của bảo hiểm và nguyên lý cộng đồng chia sẻ rủi ro",
+    "audience": "Gia đình Việt Nam quan tâm bảo vệ tài chính",
+    "tone": "Editorial Light · Điềm tĩnh",
+    "language": "vi"
+  },
+  "script": {
+    "narration": "Ít ai ngờ thủy tổ của bảo hiểm không bắt nguồn từ hợp đồng hiện đại, mà từ nỗi lo lật thuyền trên sông dữ. Thời cổ đại, thương nhân qua sông Trường Giang hiểm trở không dồn hết hàng lên một thuyền. Họ chia nhỏ gửi đều sang nhiều chiếc cùng đi, để nếu một thuyền gặp xoáy nước, chẳng ai mất trắng. Sau đó, người Lưỡng Hà khắc nguyên tắc này vào bộ luật Hammurabi. Người đi biển đóng thêm một phần phí nhỏ, để nếu bão đánh chìm tàu ngoài khơi, họ được miễn hoàn trả vốn ban đầu. Đến thời Hy Lạp cổ đại, thủy thủ vùng Địa Trung Hải lại đặt ra quy ước tổn thất chung. Nếu phải ném bớt hàng xuống biển để cứu cả con tàu, mọi chủ hàng cùng góp phần bù đắp. Thế kỷ mười bảy, tại quán cà phê ven cảng Luân Đôn, giới thương nhân ký tên ngay dưới bản danh sách tàu để cùng chia rủi ro. Ngành bảo hiểm hiện đại thành hình từ đó. Hàng nghìn năm trôi qua, nguyên lý vẫn vẹn nguyên, góp bình an của số đông đỡ lấy một gia đình lúc giông bão. Nhắn 'KẾ HOẠCH' để Tiến Dương cùng bạn rà soát lại lá chắn tài chính cho gia đình mình nhé.",
+    "scenes": [
+      {
+        "id": "s1",
+        "purpose": "Phá định kiến: Không bắt nguồn từ hợp đồng hiện đại",
+        "narration": "Ít ai ngờ thủy tổ của bảo hiểm không bắt nguồn từ hợp đồng hiện đại,",
+        "startMs": 0,
+        "durationMs": 3241,
+        "visualIntent": {
+          "description": "Tập hợp đồng hiện đại gạch trừu tượng bị bút mực đỏ gạch chéo",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "interrupt",
+            "subject": "s1"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "purpose": "Hook sông dữ: Nỗi lo lật thuyền",
+        "narration": "mà từ nỗi lo lật thuyền trên sông dữ.",
+        "startMs": 3241,
+        "durationMs": 2319,
+        "visualIntent": {
+          "description": "Con thuyền đơn độc chao nghiêng giữa đường đồng mức sóng cuộn",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "flow",
+            "subject": "s2"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "purpose": "Trường Giang: Dồn hết hàng lên 1 thuyền",
+        "narration": "Thời cổ đại, thương nhân qua sông Trường Giang hiểm trở không dồn hết hàng lên một thuyền.",
+        "startMs": 5560,
+        "durationMs": 4180,
+        "visualIntent": {
+          "description": "Khối hàng nặng đè chìm mớn nước của duy nhất 1 con thuyền",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "collapse",
+            "subject": "s3"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "purpose": "Cơ chế chia nhỏ hàng hóa lên 5 thuyền",
+        "narration": "Họ chia nhỏ gửi đều sang nhiều chiếc cùng đi, để nếu một thuyền gặp xoáy nước, chẳng ai mất trắng.",
+        "startMs": 9740,
+        "durationMs": 5360,
+        "visualIntent": {
+          "description": "Tách khối hàng làm 5 kiện đáp xuống 5 thuyền; 1 gặp xoáy nước, 4 vững vàng",
+          "layout": "split"
+        },
+        "motionIntent": [
+          {
+            "type": "stagger",
+            "subject": "s4"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "purpose": "Lưỡng Hà: Khắc nguyên tắc vào bộ luật Hammurabi",
+        "narration": "Sau đó, người Lưỡng Hà khắc nguyên tắc này vào bộ luật Hammurabi.",
+        "startMs": 15100,
+        "durationMs": 3900,
+        "visualIntent": {
+          "description": "Bia đất nung khắc nét chữ hình nêm phát sáng cùng niên đại 1750 TCN",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "draw-in",
+            "subject": "s5"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "purpose": "Cơ chế Hammurabi: Đổi phí nhỏ miễn hoàn trả vốn",
+        "narration": "Người đi biển đóng thêm một phần phí nhỏ, để nếu bão đánh chìm tàu ngoài khơi, họ được miễn hoàn trả vốn ban đầu.",
+        "startMs": 19000,
+        "durationMs": 5750,
+        "visualIntent": {
+          "description": "Cán cân cơ học cân đồng xu phí nhỏ với khối vốn tàu và đóng dấu miễn hoàn trả",
+          "layout": "split"
+        },
+        "motionIntent": [
+          {
+            "type": "compare-state",
+            "subject": "s6"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s7",
+        "purpose": "Hy Lạp cổ đại: Quy ước Tổn thất chung Địa Trung Hải",
+        "narration": "Đến thời Hy Lạp cổ đại, thủy thủ vùng Địa Trung Hải lại đặt ra quy ước tổn thất chung.",
+        "startMs": 24750,
+        "durationMs": 4760,
+        "visualIntent": {
+          "description": "Hải đồ Địa Trung Hải tự vẽ tuyến tàu cùng dấu Tổn thất chung",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "draw-in",
+            "subject": "s7"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s8",
+        "purpose": "Hy sinh phần nhỏ cứu tàu & mọi chủ hàng bù đắp",
+        "narration": "Nếu phải ném bớt hàng xuống biển để cứu cả con tàu, mọi chủ hàng cùng góp phần bù đắp.",
+        "startMs": 29510,
+        "durationMs": 4740,
+        "visualIntent": {
+          "description": "Tàu nghiêng hạ 1 kiện hàng lấy lại thăng bằng, 4 cung lực cộng đồng cùng bù đắp",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "transform",
+            "subject": "s8"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s9",
+        "purpose": "Luân Đôn thế kỷ 17: Quán cà phê ven cảng",
+        "narration": "Thế kỷ mười bảy, tại quán cà phê ven cảng Luân Đôn,",
+        "startMs": 34250,
+        "durationMs": 2626,
+        "visualIntent": {
+          "description": "Mặt bàn gỗ quán cà phê với tách cà phê bốc hơi cạnh bản đồ cảng Thames 1688",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "flow",
+            "subject": "s9"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s10",
+        "purpose": "Giải mã Underwriting: Ký tên dưới danh sách tàu",
+        "narration": "giới thương nhân ký tên ngay dưới bản danh sách tàu để cùng chia rủi ro. Ngành bảo hiểm hiện đại thành hình từ đó.",
+        "startMs": 36876,
+        "durationMs": 6324,
+        "visualIntent": {
+          "description": "Trang sổ có đường kẻ ngang; 3 chữ ký mực xanh tự viết ngay bên dưới đường kẻ",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "marker-draw",
+            "subject": "s10"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s11",
+        "purpose": "Sợi chỉ xuyên suốt hàng nghìn năm lịch sử",
+        "narration": "Hàng nghìn năm trôi qua, nguyên lý vẫn vẹn nguyên,",
+        "startMs": 43200,
+        "durationMs": 2466,
+        "visualIntent": {
+          "description": "Thước đo thời gian nối 5 cột mốc văn minh bằng sợi chỉ liền mạch",
+          "layout": "timeline"
+        },
+        "motionIntent": [
+          {
+            "type": "timeline-progress",
+            "subject": "s11"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s12",
+        "purpose": "Bản chất cốt lõi: Vòm số đông đỡ một gia đình",
+        "narration": "góp bình an của số đông đỡ lấy một gia đình lúc giông bão.",
+        "startMs": 45666,
+        "durationMs": 3204,
+        "visualIntent": {
+          "description": "6 cung hợp lực đan vòm lá chắn xanh Manulife che chở ngôi nhà trước bão",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "shield-expand",
+            "subject": "s12"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          }
+        ]
+      },
+      {
+        "id": "s13",
+        "purpose": "Brand Outro & CTA Tiến Dương Manulife",
+        "narration": "Nhắn 'KẾ HOẠCH' để Tiến Dương cùng bạn rà soát lại lá chắn tài chính cho gia đình mình nhé.",
+        "startMs": 48870,
+        "durationMs": 5486,
+        "visualIntent": {
+          "description": "Thẻ chuyên gia Tiến Dương Manulife căn giữa với highlight CTA Nhắn KẾ HOẠCH",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "card-reveal",
+            "subject": "s13"
+          }
+        ],
+        "assets": [
+          {
+            "id": "narration",
+            "type": "audio",
+            "path": "assets/audio/narration.mp3"
+          },
+          {
+            "id": "manulife-logo",
+            "type": "image",
+            "path": "assets/branding/manulife-logo.png"
+          }
+        ]
+      }
+    ]
+  },
+  "engineRouting": {
+    "suggestedEngine": "HYPERFRAMES",
+    "reason": "Pure Bespoke V4 Compiler"
+  }
+}

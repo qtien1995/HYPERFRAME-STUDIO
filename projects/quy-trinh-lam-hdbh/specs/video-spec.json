@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "0.1",
+  "project": {
+    "id": "quy-trinh-lam-hdbh",
+    "title": "Quy Trình Từng Bước Để Làm 1 Hợp Đồng Bảo Hiểm",
+    "version": 1
+  },
+  "format": {
+    "aspectRatio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fpsPreference": 30,
+    "targetDurationMs": 101198
+  },
+  "content": {
+    "coreMessage": "Quy trình 6 bước chuẩn xác để làm một hợp đồng bảo hiểm thực sự có giá trị bảo vệ",
+    "audience": "General",
+    "tone": "Editorial Ivory Archival",
+    "language": "vi"
+  },
+  "script": {
+    "narration": "Nhiều người tưởng làm một hợp đồng bảo hiểm chỉ cần chọn gói rồi ký tên là xong. Thực tế, để hợp đồng thực sự có giá trị chi trả, bạn phải đi qua đủ các bước chặt chẽ dưới đây. Bước một, đo khoảng trống tài chính trước khi chọn sản phẩm. Đừng hỏi gói nào rẻ, hãy tính xem nếu trụ cột mất thu nhập, gia đình cần bao nhiêu tiền để đứng vững, rồi mới quy ra mệnh giá. Bước hai, chuẩn bị đủ giấy tờ hợp lệ. Cơ bản gồm căn cước công dân hoặc giấy khai sinh nếu mua cho con; kèm hồ sơ khám bệnh cũ nếu từng điều trị, và chứng minh thu nhập khi bảo vệ mệnh giá cao. Bước ba, nộp hồ sơ yêu cầu và đóng phí tạm tính lần đầu. Đây là nút thắt sống còn: bạn buộc phải kê khai sức khỏe trung thực tuyệt đối. Giấu một bệnh cũ chỉ tạo kẽ hở từ chối chi trả về sau. Đặc biệt, với sản phẩm liên kết đầu tư, luật bắt buộc phải ghi âm quá trình tư vấn. Đoạn ghi âm này khóa bằng chứng bạn đã nghe rõ rủi ro, điều khoản và tự nguyện tham gia, tránh bị tư vấn mập mờ. Bước bốn, bộ phận thẩm định sẽ soi hồ sơ y tế, thậm chí mời bạn khám sức khỏe miễn phí nếu cần. Kết quả sẽ rẽ vào một trong bốn cửa: chấp nhận chuẩn, tăng phí, loại trừ bệnh cũ, hoặc tạm hoãn. Bước năm, xác thực để phát hành. Công ty sẽ kiểm tra định danh, chữ ký điện tử hoặc gọi điện đối chiếu lại với bạn. Chỉ khi hoàn tất xác thực và phát hành, lá chắn toàn diện mới mở khóa thay cho bảo vệ tạm thời do tai nạn. Bước sáu, ký biên bản bàn giao để kích hoạt hai mươi mốt ngày cân nhắc miễn phí. Suốt ba tuần này, bạn được đọc lại từng trang điều khoản, nếu thấy không ổn có quyền hủy ngang và nhận lại tiền. Đừng nhận cuốn hợp đồng rồi cất ngay vào tủ. Qua ngày hai mươi mốt, mọi điều khoản chính thức khóa chặt và các mốc thời gian chờ bắt đầu đếm. Làm bảo hiểm không phải mua một tờ giấy, mà là chuẩn bị đủ giấy tờ, khai thật, ghi âm minh bạch, xác thực chuẩn và kiểm tra kỹ trước khi hết hạn cân nhắc.",
+    "scenes": [
+      {
+        "id": "s1",
+        "purpose": "Cảnh 1 - Hook: Phá vỡ hiểu lầm ký là xong",
+        "narration": "",
+        "startMs": 0,
+        "durationMs": 9380,
+        "visualIntent": {
+          "description": "Cảnh 1 - Hook: Phá vỡ hiểu lầm ký là xong",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "scale-in",
+            "subject": "s1"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s2",
+        "purpose": "Cảnh 2 - Bước 1: Đo khoảng trống tài chính",
+        "narration": "",
+        "startMs": 9380,
+        "durationMs": 10140,
+        "visualIntent": {
+          "description": "Cảnh 2 - Bước 1: Đo khoảng trống tài chính",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s2"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s3",
+        "purpose": "Cảnh 3 - Bước 2: Chuẩn bị bộ giấy tờ hợp lệ",
+        "narration": "",
+        "startMs": 19520,
+        "durationMs": 10710,
+        "visualIntent": {
+          "description": "Cảnh 3 - Bước 2: Chuẩn bị bộ giấy tờ hợp lệ",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s3"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s4",
+        "purpose": "Cảnh 4 - Bước 3: Hồ sơ yêu cầu & Kê khai trung thực",
+        "narration": "",
+        "startMs": 30230,
+        "durationMs": 10630,
+        "visualIntent": {
+          "description": "Cảnh 4 - Bước 3: Hồ sơ yêu cầu & Kê khai trung thực",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s4"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s5",
+        "purpose": "Cảnh 5 - Yêu cầu Ghi âm tư vấn bắt buộc",
+        "narration": "",
+        "startMs": 40860,
+        "durationMs": 10740,
+        "visualIntent": {
+          "description": "Cảnh 5 - Yêu cầu Ghi âm tư vấn bắt buộc",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s5"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s6",
+        "purpose": "Cảnh 6 - Bước 4: Thẩm định rủi ro & 4 ngã rẽ",
+        "narration": "",
+        "startMs": 51600,
+        "durationMs": 10980,
+        "visualIntent": {
+          "description": "Cảnh 6 - Bước 4: Thẩm định rủi ro & 4 ngã rẽ",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s6"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s7",
+        "purpose": "Cảnh 7 - Bước 5: Xác thực phát hành & Bảo vệ tạm thời",
+        "narration": "",
+        "startMs": 62580,
+        "durationMs": 12620,
+        "visualIntent": {
+          "description": "Cảnh 7 - Bước 5: Xác thực phát hành & Bảo vệ tạm thời",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s7"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s8",
+        "purpose": "Cảnh 8 - Bước 6: Bàn giao & 21 ngày cân nhắc miễn phí",
+        "narration": "",
+        "startMs": 75200,
+        "durationMs": 9970,
+        "visualIntent": {
+          "description": "Cảnh 8 - Bước 6: Bàn giao & 21 ngày cân nhắc miễn phí",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s8"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s9",
+        "purpose": "Cảnh 9 - Điểm mù sau ngày 21 & Thời gian chờ",
+        "narration": "",
+        "startMs": 85170,
+        "durationMs": 6860,
+        "visualIntent": {
+          "description": "Cảnh 9 - Điểm mù sau ngày 21 & Thời gian chờ",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s9"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "s10",
+        "purpose": "Cảnh 10 - Tổng kết quy trình & 5 chốt hành động",
+        "narration": "",
+        "startMs": 92030,
+        "durationMs": 9168,
+        "visualIntent": {
+          "description": "Cảnh 10 - Tổng kết quy trình & 5 chốt hành động",
+          "layout": "centered"
+        },
+        "motionIntent": [
+          {
+            "type": "reveal-sequence",
+            "subject": "s10"
+          }
+        ],
+        "assets": []
+      }
+    ]
+  },
+  "engineRouting": {
+    "suggestedEngine": "HYPERFRAMES",
+    "reason": "Pure Bespoke V4 Compiler"
+  }
+}

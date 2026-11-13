@@ -1,0 +1,10 @@
+{
+  "projectId": "quy-trinh-lam-hdbh",
+  "title": "Quy Trình Từng Bước Để Làm 1 Hợp Đồng Bảo Hiểm",
+  "brand": "none",
+  "voice": "Hải Đăng",
+  "ttsSpeed": 1.02,
+  "format": "9:16",
+  "targetScenes": 10,
+  "targetDurationSec": 108
+}

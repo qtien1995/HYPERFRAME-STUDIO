@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "core/scripts/tts/index.js",
+    "core/scripts/validate/index.js",
+    "core/scripts/footage/keyword-mapper.js"
+  ],
+  "project": [
+    "core/**/*.{js,cjs}",
+    "tests/**/*.{js,cjs}"
+  ],
+  "ignore": [
+    ".agents/**"
+  ]
+}

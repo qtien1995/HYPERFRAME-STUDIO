@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.2",
+  "projectId": "gia-han-60-ngay",
+  "stages": {
+    "SCRIPT": {
+      "input": "1966076ce0fe862cf1ed74e9267e57406687289bddefad9e55409ab16720400c",
+      "signature": "3321d51b8effab45c5a797cae82778514a5bfcbd75648010c100cf4c79551d3c",
+      "artifacts": [
+        "script.md"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:47.824Z"
+    },
+    "BEATS": {
+      "input": "34f718f6e9855f665c97158eeb0cb8824de11b4abb2d32df66b19a069f98c8ae",
+      "signature": "c107e56569c0d3c515bf529f43231c48d223c3d0d03764f1992dae75f94ea89f",
+      "artifacts": [
+        "beats.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:47.827Z"
+    },
+    "GATE1": {
+      "input": "1b7594a6bb5a2b98a483ec344796bccb92b9145a4e0fa68c18ea20284203daf7",
+      "signature": "64f826e2bfcb13fd528fff1a8efdb6d9c367e948ffaac5cfb98d92585b9a1cfc",
+      "artifacts": [],
+      "metadata": {
+        "evidence": "User approved script and beats"
+      },
+      "recordedAt": "2026-11-13T11:56:47.829Z"
+    },
+    "CREATIVE_DIRECTION": {
+      "input": "290c5a1b85175035c370d02386c9b270608bdfe10d88c1d41a78ae67dd18a924",
+      "signature": "e6db126d94c00564fd80272a55e98ed843876ef3a127824be40a7181b7c310fc",
+      "artifacts": [
+        "creative-direction.md",
+        "DESIGN.md"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:47.834Z"
+    },
+    "GATE2": {
+      "input": "e21d3a22e0b973414c4a5df9e5cd4625e0cd9e5a7d36203702283572fbf53468",
+      "signature": "237654e5e5d72c9730cd9635d6ab5e7d1b8b07a8a18874e8bb37e5ac652d9b02",
+      "artifacts": [],
+      "metadata": {
+        "evidence": "User approved DESIGN.md and creative direction"
+      },
+      "recordedAt": "2026-11-13T11:56:47.839Z"
+    },
+    "TTS": {
+      "input": "ffa9d938f677928850cbbd9cfc8d5638cc2ba2ac513b5e1fb83582efb5305acf",
+      "signature": "65a5759d95dee92b27ec04fa414c73f62b39d0278c03b881a49cde88048aaa23",
+      "artifacts": [
+        "assets/audio/narration.mp3",
+        "assets/audio/timing.json"
+      ],
+      "metadata": {
+        "voice": "Hải Đăng",
+        "speed": 0.98,
+        "provider": "cit-voice-studio"
+      },
+      "recordedAt": "2026-11-13T11:56:47.931Z"
+    },
+    "STORYBOARD": {
+      "input": "dc599044eb8b1e14344b85534c9ffdbb4cc7ac7ce11dfdaf2fd5eaee33643710",
+      "signature": "fe202106886f2b882c0a483b7d4f0b79fd023b44ae7d120492613fcd48661bff",
+      "artifacts": [
+        "storyboard.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:47.940Z"
+    },
+    "VIDEO_SPEC": {
+      "input": "f98cc1929926335ac607b98a0fa2e3cd6d6a0d9a58b72cb61c6cb4f3b1d57a8f",
+      "signature": "dd0fce4a42b9b5783aeb45d8062529287d824cb612a14c36583b852486735d00",
+      "artifacts": [
+        "specs/video-spec.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:47.951Z"
+    },
+    "VALIDATION": {
+      "input": "815a297020407b7e90cf41ccc8e33d24d7f75b07a41c972723dd6a0e63e19815",
+      "signature": "928bc3aa63830da2c52b7b92dccee1cde4fd4f37bb42bb1042d79592db5d2a02",
+      "artifacts": [],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.031Z"
+    },
+    "PRODUCTION": {
+      "input": "b8c0a0cd4845d3a624754d5f531a2d027058e6d0d7f67af73ea07403e4f5476a",
+      "signature": "8290e26a508af1292498b89a515aea9e4be8876bb77c48651780d7bffaec9b1f",
+      "artifacts": [
+        "specs/video-spec.json",
+        "index.html",
+        "PRODUCTION-BLUEPRINT.md",
+        "build-index.cjs"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.040Z"
+    },
+    "FINAL_RENDER": {
+      "input": "b30c3835c6472c61de811b2e7d74812fac20a5ec0f744a0828fe76f92c37a13d",
+      "signature": "3d614ab70131fb96b08ee41b846c5fc54d7fc315bf13015fe6fcbd45fc69be1c",
+      "artifacts": [
+        "output/final.mp4",
+        "output/final-qc.json",
+        "output/final-contact-sheet.svg"
+      ],
+      "metadata": {
+        "engine": "HYPERFRAMES"
+      },
+      "recordedAt": "2026-11-13T11:56:48.079Z"
+    },
+    "FINAL_QA": {
+      "input": "c88e41c903691dc809a7f875ebcfdf468288ea7fc1d1f39dc25e0cfba39cd64c",
+      "signature": "a3c071d344a944f389ab3ed845c81f6acf41929da29f9526940aa6c6e7d8b143",
+      "artifacts": [
+        "qc.md"
+      ],
+      "metadata": {
+        "reviewed": true
+      },
+      "recordedAt": "2026-11-13T11:56:48.134Z"
+    },
+    "DONE": {
+      "input": "dda8acd69ef96f89b8c93b3128d7f858c82646defc21c0880940e0492b6ebd82",
+      "signature": "8ab7051ee8805c90457ca637120f1000dac9c597355adb6ea8d3bc52392c3deb",
+      "artifacts": [],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.188Z"
+    }
+  },
+  "needsReview": false
+}

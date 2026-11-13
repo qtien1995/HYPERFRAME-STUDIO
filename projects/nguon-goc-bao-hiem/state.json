@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.2",
+  "projectId": "nguon-goc-bao-hiem",
+  "stages": {
+    "SCRIPT": {
+      "input": "1966076ce0fe862cf1ed74e9267e57406687289bddefad9e55409ab16720400c",
+      "signature": "e1838719b30fccf652556790872c5e87fb3578b6db6ba0fc3b99619abc9a5413",
+      "artifacts": [
+        "script.md"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.221Z"
+    },
+    "BEATS": {
+      "input": "9ee6a8ab88a8b5d01ad67984eb85130d39c1d1dc3702075715566f6e64437c73",
+      "signature": "61c2e796ffc4b9f93cd721389b2ba12aaf7f22907bc4bd437da99abf79601216",
+      "artifacts": [
+        "beats.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.224Z"
+    },
+    "GATE1": {
+      "input": "509b74133e33ed9e13abb5d1c4a8acdc2841c881a07be8122bf36312c062b8ad",
+      "signature": "c30c716577f758ccc4ed6a86f8e25314f1220280b875ff0503fc08b0e10634f6",
+      "artifacts": [],
+      "metadata": {
+        "evidence": "User approved script and beats"
+      },
+      "recordedAt": "2026-11-13T11:56:48.226Z"
+    },
+    "CREATIVE_DIRECTION": {
+      "input": "389bec9804e3554a85cc3f7d562c43f53db49ceba88dc682ab3ec7e0926bd3b0",
+      "signature": "be3c19b30f83b6f3a031a80d7a0c0af36521d79c781b9194517aba2e87cdba9e",
+      "artifacts": [
+        "creative-direction.md",
+        "DESIGN.md"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.229Z"
+    },
+    "GATE2": {
+      "input": "5a49e248e9f4c4005da0dc88448c30462116dbd114619d456ac78c17368c33ca",
+      "signature": "ccd48e41750ea2af5f8a9925f41ad253a85b224066dad24f8380a0d0a57b0747",
+      "artifacts": [],
+      "metadata": {
+        "evidence": "User approved DESIGN.md and creative direction"
+      },
+      "recordedAt": "2026-11-13T11:56:48.232Z"
+    },
+    "TTS": {
+      "input": "4d71418b59aa5b68792c8173cc24c1ce7834523c5f8ca20a550c961f1ef20832",
+      "signature": "25ac1b83ff308bd40786ce5dc7fa553f06b768c346915ba01d64978aacfc8d05",
+      "artifacts": [
+        "assets/audio/narration.mp3",
+        "assets/audio/timing.json"
+      ],
+      "metadata": {
+        "voice": "Hải Đăng",
+        "speed": 1,
+        "provider": "cit-voice-studio"
+      },
+      "recordedAt": "2026-11-13T11:56:48.322Z"
+    },
+    "STORYBOARD": {
+      "input": "7f45c8d89fa7f3c672cff2c9c05dd3367c8e8b4fba15521f945eb5ac91895f9e",
+      "signature": "326fc37fae4c13c6d2aa93989b6a503beacf7c05ba9feabd675e0ac4fe45adfd",
+      "artifacts": [
+        "storyboard.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.331Z"
+    },
+    "VIDEO_SPEC": {
+      "input": "2b8d4441e59b26b4bf34117297610c9f51f1f749e3f1140971309a67fb5970e4",
+      "signature": "ab17268cd1475cce97ef72946a90ca90c26af9580e0e4d7363a86c682bf55ba6",
+      "artifacts": [
+        "specs/video-spec.json"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.343Z"
+    },
+    "VALIDATION": {
+      "input": "e35587921d1596b521e11b7d3fefab30adc9bca29584435d1df390449ae819de",
+      "signature": "15b5dafa4b1b0f9bf90d75b1362e5f15fe341d6cf732d8453cfc62540a4f8022",
+      "artifacts": [],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.434Z"
+    },
+    "PRODUCTION": {
+      "input": "7ef3191a44500656b39fccc8639bf737657f1397fdd799d09be48f0760ec0105",
+      "signature": "e8fabd0ec1770e385e75542a7454394f9804155f2fb2d512ce18a194dada2cd9",
+      "artifacts": [
+        "specs/video-spec.json",
+        "index.html",
+        "PRODUCTION-BLUEPRINT.md",
+        "build-index.cjs"
+      ],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.444Z"
+    },
+    "FINAL_RENDER": {
+      "input": "59262f867848f95f05b46fbf04220ea4dcb1de59e8a1294c1e6fcdb587302296",
+      "signature": "e9e25a43e093e30914393c3fe08f139beda6732db624f595e78f2259e7ed5900",
+      "artifacts": [
+        "output/final.mp4",
+        "output/final-qc.json",
+        "output/final-contact-sheet.svg"
+      ],
+      "metadata": {
+        "engine": "HYPERFRAMES"
+      },
+      "recordedAt": "2026-11-13T11:56:48.473Z"
+    },
+    "FINAL_QA": {
+      "input": "fc3901b550d1101b20c3b321549b5c99042ed90b08512d95ba56986c03c79e56",
+      "signature": "7508de226bd1de2b3620ed4e0915e5823b817b76247d98643501c2eb61eaf664",
+      "artifacts": [
+        "qc.md"
+      ],
+      "metadata": {
+        "reviewed": true
+      },
+      "recordedAt": "2026-11-13T11:56:48.528Z"
+    },
+    "DONE": {
+      "input": "374aa09e4342feb4f10ce3ea88a25a84ae667758cf5927e45d776d8ac3c80d15",
+      "signature": "33ed31f189f6c17271b6a5e7f3ebef9d115063f7d774d203956bdf5245c78fdb",
+      "artifacts": [],
+      "metadata": {},
+      "recordedAt": "2026-11-13T11:56:48.586Z"
+    }
+  },
+  "needsReview": false
+}

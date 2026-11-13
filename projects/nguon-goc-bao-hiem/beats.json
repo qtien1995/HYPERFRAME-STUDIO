@@ -1,0 +1,112 @@
+{
+  "projectId": "nguon-goc-bao-hiem",
+  "title": "Thủy Tổ Bảo Hiểm Bắt Nguồn Từ Đâu?",
+  "targetDurationSec": 80,
+  "ttsSpeed": 1.0,
+  "beats": [
+    {
+      "id": "S1",
+      "name": "Phá định kiến hợp đồng hiện đại",
+      "purpose": "Gạt bỏ ấn tượng khô khan về hợp đồng bảo hiểm hiện đại ngay giây đầu",
+      "narration": "Ít ai ngờ thủy tổ của bảo hiểm không bắt nguồn từ hợp đồng hiện đại,",
+      "visualMetaphor": "Tập hợp đồng dòng chữ trừu tượng bị bút đỏ gạch ngang dứt khoát",
+      "estimatedSec": 4.2
+    },
+    {
+      "id": "S2",
+      "name": "Hook: Nỗi lo lật thuyền trên sông dữ",
+      "purpose": "Đẩy người xem vào bối cảnh sinh tử trên dòng sông dữ",
+      "narration": "mà từ nỗi lo lật thuyền trên sông dữ.",
+      "visualMetaphor": "Con thuyền gỗ đơn độc chao nghiêng trên đường đồng mức sóng sông dữ, vạch cảnh báo đỏ",
+      "estimatedSec": 4.3
+    },
+    {
+      "id": "S3",
+      "name": "Sông Trường Giang: Quá tải 1 con thuyền",
+      "purpose": "Đặt vấn đề tập trung toàn bộ rủi ro lên một điểm dễ gãy",
+      "narration": "Thời cổ đại, thương nhân qua sông Trường Giang hiểm trở không dồn hết hàng lên một thuyền.",
+      "visualMetaphor": "1 khối hàng quá tải đè chìm mớn nước của duy nhất 1 con thuyền xuống vạch đỏ",
+      "estimatedSec": 6.0
+    },
+    {
+      "id": "S4",
+      "name": "Chia nhỏ hàng hóa sang nhiều thuyền",
+      "purpose": "Minh họa nguyên lý phân tán rủi ro đầu tiên trong lịch sử",
+      "narration": "Họ chia nhỏ gửi đều sang nhiều chiếc cùng đi, để nếu một thuyền gặp xoáy nước, chẳng ai mất trắng.",
+      "visualMetaphor": "Khối hàng tách làm 5 kiện đáp xuống 5 thuyền; 1 thuyền gặp xoáy nước, 4 thuyền giữ an toàn",
+      "estimatedSec": 7.5
+    },
+    {
+      "id": "S5",
+      "name": "Lưỡng Hà: Khắc vào bộ luật Hammurabi",
+      "purpose": "Bước ngoặt luật hóa nguyên lý bảo vệ rủi ro bằng văn bản",
+      "narration": "Sau đó, người Lưỡng Hà khắc nguyên tắc này vào bộ luật Hammurabi.",
+      "visualMetaphor": "Tấm bia đất nung khắc vạch hình nêm dưới ánh đèn soi và niên đại ~1750 TCN",
+      "estimatedSec": 5.5
+    },
+    {
+      "id": "S6",
+      "name": "Cơ chế Hammurabi: Đổi phí nhỏ miễn hoàn trả",
+      "purpose": "Giải thích cơ chế đóng phí nhỏ để chuyển giao rủi ro mất vốn",
+      "narration": "Người đi biển đóng thêm một phần phí nhỏ, để nếu bão đánh chìm tàu ngoài khơi, họ được miễn hoàn trả vốn ban đầu.",
+      "visualMetaphor": "Thanh đòn cân đổi đồng xu phí nhỏ lấy lá chắn vốn lớn và con dấu MIỄN HOÀN TRẢ",
+      "estimatedSec": 8.0
+    },
+    {
+      "id": "S7",
+      "name": "Hy Lạp cổ đại: Quy ước Tổn thất chung",
+      "purpose": "Giới thiệu luật hàng hải cổ vùng Địa Trung Hải (Lex Rhodia)",
+      "narration": "Đến thời Hy Lạp cổ đại, thủy thủ vùng Địa Trung Hải lại đặt ra quy ước tổn thất chung.",
+      "visualMetaphor": "Hải đồ Địa Trung Hải tự vẽ tuyến tàu SVG cùng con dấu TỔN THẤT CHUNG",
+      "estimatedSec": 6.0
+    },
+    {
+      "id": "S8",
+      "name": "Hy sinh phần nhỏ cứu cả tàu",
+      "purpose": "Cho thấy tinh thần cộng đồng cùng bù đắp tổn thất chung",
+      "narration": "Nếu phải ném bớt hàng xuống biển để cứu cả con tàu, mọi chủ hàng cùng góp phần bù đắp.",
+      "visualMetaphor": "Tàu nghiêng hạ 1 kiện hàng lấy lại thăng bằng, 4 cung lực cộng đồng cùng bù đắp",
+      "estimatedSec": 7.5
+    },
+    {
+      "id": "S9",
+      "name": "Luân Đôn thế kỷ 17: Quán cà phê ven cảng",
+      "purpose": "Đặt bối cảnh khai sinh thị trường bảo hiểm hiện đại tại Lloyd's",
+      "narration": "Thế kỷ mười bảy, tại quán cà phê ven cảng Luân Đôn,",
+      "visualMetaphor": "Tách cà phê bốc hơi nét mảnh cạnh bản đồ cảng sông Thames và dấu mốc LLOYD'S 1688",
+      "estimatedSec": 5.0
+    },
+    {
+      "id": "S10",
+      "name": "Giải mã Under-writing: Ký dưới danh sách tàu",
+      "purpose": "Giải thích nguồn gốc từ Underwriting và sự ra đời của bảo hiểm hiện đại",
+      "narration": "giới thương nhân ký tên ngay dưới bản danh sách tàu để cùng chia rủi ro. Ngành bảo hiểm hiện đại thành hình từ đó.",
+      "visualMetaphor": "Trang sổ manifest có đường kẻ ngang; 3 chữ ký tự viết ngay dưới đường kẻ và dấu CHIA RỦI RO",
+      "estimatedSec": 8.5
+    },
+    {
+      "id": "S11",
+      "name": "Sợi chỉ xuyên suốt hàng nghìn năm",
+      "purpose": "Nối liền 4 cột mốc lịch sử thành một nguyên lý bất biến",
+      "narration": "Hàng nghìn năm trôi qua, nguyên lý vẫn vẹn nguyên,",
+      "visualMetaphor": "Thước đo thời gian trượt nối 4 cột mốc lịch sử thành sợi chỉ vàng liền mạch",
+      "estimatedSec": 5.0
+    },
+    {
+      "id": "S12",
+      "name": "Bản chất cốt lõi: Số đông đỡ một gia đình",
+      "purpose": "Chuyển hóa bài học lịch sử về giá trị bảo vệ gia đình hôm nay",
+      "narration": "góp bình an của số đông đỡ lấy một gia đình lúc giông bão.",
+      "visualMetaphor": "6 cung hợp lực vươn thành vòm lá chắn xanh đỡ lấy ngôi nhà nhỏ trước luồng bão",
+      "estimatedSec": 5.5
+    },
+    {
+      "id": "S13",
+      "name": "Brand Outro & CTA",
+      "purpose": "Chốt nhận diện chuyên gia Tiến Dương Manulife và kêu gọi hành động",
+      "narration": "Nhắn 'KẾ HOẠCH' để Tiến Dương cùng bạn rà soát lại lá chắn tài chính cho gia đình mình nhé.",
+      "visualMetaphor": "Thẻ chuyên gia Tiến Dương · Manulife căn giữa tuyệt đối với highlight vàng CTA Nhắn 'KẾ HOẠCH'",
+      "estimatedSec": 7.0
+    }
+  ]
+}

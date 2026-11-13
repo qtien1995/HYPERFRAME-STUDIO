@@ -1,0 +1,13 @@
+node_modules/
+.tools/
+hyperframes/
+*.tmp
+*.tmp.mp4
+*.raw.mp4
+*.candidate.mp4
+*.FAILED.mp4
+projects/**/.hyperframes/
+projects/**/output/
+projects/**/output/.vtest-sampling-*/
+__pycache__/
+*.pyc

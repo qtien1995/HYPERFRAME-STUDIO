@@ -1,0 +1,79 @@
+{
+  "projectId": "quy-trinh-lam-hdbh",
+  "format": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "totalDurationSec": 101.198,
+  "scenes": [
+    {
+      "id": "s1",
+      "act": "Cảnh 1 - Hook: Phá vỡ hiểu lầm ký là xong",
+      "cam": "punch-in",
+      "start": 0,
+      "dur": 9.38
+    },
+    {
+      "id": "s2",
+      "act": "Cảnh 2 - Bước 1: Đo khoảng trống tài chính",
+      "cam": "pan-right",
+      "start": 9.38,
+      "dur": 10.14
+    },
+    {
+      "id": "s3",
+      "act": "Cảnh 3 - Bước 2: Chuẩn bị bộ giấy tờ hợp lệ",
+      "cam": "breathe",
+      "start": 19.52,
+      "dur": 10.71
+    },
+    {
+      "id": "s4",
+      "act": "Cảnh 4 - Bước 3: Hồ sơ yêu cầu & Kê khai trung thực",
+      "cam": "punch-in",
+      "start": 30.23,
+      "dur": 10.63
+    },
+    {
+      "id": "s5",
+      "act": "Cảnh 5 - Yêu cầu Ghi âm tư vấn bắt buộc",
+      "cam": "pan-left",
+      "start": 40.86,
+      "dur": 10.74
+    },
+    {
+      "id": "s6",
+      "act": "Cảnh 6 - Bước 4: Thẩm định rủi ro & 4 ngã rẽ",
+      "cam": "pan-right",
+      "start": 51.6,
+      "dur": 10.98
+    },
+    {
+      "id": "s7",
+      "act": "Cảnh 7 - Bước 5: Xác thực phát hành & Bảo vệ tạm thời",
+      "cam": "punch-in",
+      "start": 62.58,
+      "dur": 12.62
+    },
+    {
+      "id": "s8",
+      "act": "Cảnh 8 - Bước 6: Bàn giao & 21 ngày cân nhắc miễn phí",
+      "cam": "breathe",
+      "start": 75.2,
+      "dur": 9.97
+    },
+    {
+      "id": "s9",
+      "act": "Cảnh 9 - Điểm mù sau ngày 21 & Thời gian chờ",
+      "cam": "pan-left",
+      "start": 85.17,
+      "dur": 6.86
+    },
+    {
+      "id": "s10",
+      "act": "Cảnh 10 - Tổng kết quy trình & 5 chốt hành động",
+      "cam": "pull-back",
+      "start": 92.03,
+      "dur": 9.168
+    }
+  ]
+}
